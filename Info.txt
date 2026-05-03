@@ -1,0 +1,11 @@
+﻿HOW TO USE THIS CLASS:
+
+using (Excele_Writer excele_Writer = new Excele_Writer(path))
+    {
+        for (int j = 0; j < coll.Length; j++)
+        {
+            excele_Writer.Exc_Write(sheetName, columnIndex, rowIndex, value[j]); // In MS OFFICE ROWS AND CLMNS begin from 1 !
+        }
+
+    }
+    
